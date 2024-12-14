@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Version cible de JavaScript
+    "module": "CommonJS",                    // Module system pour Node.js
+    "rootDir": "src",                        // Répertoire racine des fichiers TypeScript
+    "outDir": "dist",                        // Répertoire de sortie pour les fichiers compilés
+    "strict": true,                            // Active toutes les vérifications strictes
+    "esModuleInterop": true,                   // Support pour les modules ES6
+    "forceConsistentCasingInFileNames": true,  // Vérifie la casse des noms de fichiers
+    "skipLibCheck": true                       // Ignore la vérification des fichiers de déclaration
+  },
+  "include": ["src/**/*"],                    // Inclut tous les fichiers TypeScript du dossier src
+  "exclude": ["node_modules", "dist"]        // Exclut node_modules et dist
+}
